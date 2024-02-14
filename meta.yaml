@@ -1,0 +1,27 @@
+#cloud-config
+users:
+  - name: adrin
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGY8NGlozUlS6+FKD1+0f1xbtRxZfqQrahEaxFbJC9Gw adrin@srv1
+users:
+  - name: adrin
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGY8NGlozUlS6+FKD1+0f1xbtRxZfqQrahEaxFbJC9Gw adrin@srv1
+disable_root: true
+timezone: Asia/Yekaterinburg
+repo_update: true
+repo_upgrade: true
+apt:
+  preserve_sources_list: true
+packages:
+  - nginx
+runcmd:
+  - [ systemctl, nginx-reload ]
+  - [ systemctl, enable, nginx.service ]
+  - [ systemctl, start, --no-block, nginx.service ]
