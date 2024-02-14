@@ -28,7 +28,7 @@
 
 [Terraform Playbook](https://github.com/shafikovrr/yc-load-balancer/blob/main/main.tf)
 
-[Конфигурационный файл crontab](https://github.com/shafikovrr/yc-load-balancer/blob/main/meta.yaml)
+[meta.yaml](https://github.com/shafikovrr/yc-load-balancer/blob/main/meta.yaml)
 
 ![Виртуальные машины](https://github.com/shafikovrr/yc-load-balancer/blob/main/img/lb1.png)
 
