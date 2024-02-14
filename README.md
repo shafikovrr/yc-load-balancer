@@ -26,7 +26,14 @@
 
 ### Решение 1
 
-[Конфигурационный файл crontab](https://github.com/shafikovrr/yc-load-balancer/blob/main/main.tf)
+[Terraform Playbook](https://github.com/shafikovrr/yc-load-balancer/blob/main/main.tf)
+
 [Конфигурационный файл crontab](https://github.com/shafikovrr/yc-load-balancer/blob/main/meta.yaml)
 
-![Rsync_1](https://github.com/shafikovrr/rsync/blob/main/img/rsync_1.png)
+![Виртуальные машины](https://github.com/shafikovrr/yc-load-balancer/blob/main/img/lb1.png)
+
+![Статус балансировщика и целевой группы](https://github.com/shafikovrr/yc-load-balancer/blob/main/img/lb2.png)
+
+![Запрос на IP-адрес балансировщика](https://github.com/shafikovrr/yc-load-balancer/blob/main/img/lb3.png)
+
+![Отключение сервера 0](https://github.com/shafikovrr/yc-load-balancer/blob/main/img/lb4.png)
