@@ -26,9 +26,7 @@
 
 ### Решение 1
 
-```
-rsync -av --checksum --delete --exclude=".*/" /home/rinat/home/ /tmp/backup
-```
-[Конфигурационный файл crontab](https://github.com/shafikovrr/rsync/blob/main/rinat)
+[Конфигурационный файл crontab](https://github.com/shafikovrr/yc-load-balancer/blob/main/main.tf)
+[Конфигурационный файл crontab](https://github.com/shafikovrr/yc-load-balancer/blob/main/meta.yaml)
 
 ![Rsync_1](https://github.com/shafikovrr/rsync/blob/main/img/rsync_1.png)
